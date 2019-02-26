@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      database: consumers
+      host: localhost
+      port: 27017
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: false
+
+serasa:
+  name: serasa
+  url: http://score-mock.getsandbox.com
