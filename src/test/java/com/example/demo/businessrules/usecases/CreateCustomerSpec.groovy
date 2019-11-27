@@ -98,7 +98,7 @@ class CreateCustomerSpec extends Specification {
         }
 
         and: "O usuário salvo deve estar preenchido o nome e o documento"
-        result.document == "12345678"
+        result.documento == "12345678"
         result.nome == "José"
     }
 

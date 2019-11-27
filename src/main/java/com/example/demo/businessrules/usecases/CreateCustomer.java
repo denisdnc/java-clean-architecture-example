@@ -24,7 +24,7 @@ public class CreateCustomer {
             throw new BusinessException(customer.getErrors());
         }
 
-        if(findCustomerByDocument.execute(customer.getDocument()).isPresent()) {
+        if(findCustomerByDocument.execute(customer.getDocumento()).isPresent()) {
             throw new BusinessException(Arrays.asList(new Error("customer already exists")));
         };
 

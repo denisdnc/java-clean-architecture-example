@@ -3,7 +3,6 @@ package com.example.demo.businessrules.entities;
 import com.example.demo.businessrules.entities.exceptions.Error;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Customer {
@@ -37,7 +36,7 @@ public class Customer {
         return erros;
     }
 
-    public String getDocument() {
+    public String getDocumento() {
         return this.documento;
     }
 
